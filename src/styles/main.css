@@ -5,6 +5,21 @@
 @media(max-width:760px){.sidebar{position:relative;width:auto;padding:1.2rem 1.5rem;border-right:0;border-bottom:1px solid #1c3040}.sidebar-label,.sidebar-footer{display:none}.sidebar nav{margin-top:1rem;overflow-x:auto}.nav-list{display:flex;gap:1.2rem;min-width:max-content}.nav-list a{font-size:.8rem}.nav-list span{display:none}.main-content{margin-left:0}.hero{min-height:570px}.hero,.section,.footer{padding-left:1.5rem;padding-right:1.5rem}.section{padding-top:4rem;padding-bottom:4rem}.hero-orbit{width:150px;height:150px;right:-45px;top:15%;opacity:.25}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
 
+/* Soft, static depth across the page without distracting from the content. */
+.main-content {
+  background:
+    radial-gradient(ellipse at 85% 15%, rgba(42, 105, 139, .3), transparent 50%),
+    linear-gradient(155deg, #091827 0%, #10283b 42%, #07111e 100%);
+}
+.hero {
+  background:
+    radial-gradient(ellipse at 82% 38%, rgba(48, 115, 150, .38), transparent 60%),
+    linear-gradient(135deg, #091827 0%, #102b40 55%, #0a1a28 100%);
+}
+.sidebar {
+  background: linear-gradient(165deg, #0a1927 0%, #081522 65%, #07121e 100%);
+}
+
 /* Navigation and experience refinements */
 button:focus-visible{outline:3px solid #80e5ee;outline-offset:4px}
 .menu-toggle{display:none}
