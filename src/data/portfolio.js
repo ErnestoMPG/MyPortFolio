@@ -4,11 +4,12 @@ export const navigation = [
   ['projects', 'Projects'],
   ['skills', 'Skills'],
   ['education', 'Education'],
+  ['interests', 'Interests'],
   ['contact', 'Contact'],
 ];
 
 export const skills = [
-  { title: 'Integration & testing', items: 'Testing and verification, API integration, debugging, technical documentation' },
-  { title: 'Systems & tools', items: 'Linux, virtual environments, Git, Nessus, Jira, Agile, Kanban' },
-  { title: 'Software & automation', items: 'C/C++, Python, Java, JavaScript, Go, C#, SQL, MATLAB, XML, Excel VBA' },
+  { title: 'Programming', items: 'C/C++, Python, Java, JavaScript, Go, C#, SQL, MATLAB, XML' },
+  { title: 'Systems & tools', items: 'Linux, Git, virtual environments, Nessus, Jira, Agile, Kanban' },
+  { title: 'Engineering', items: 'Testing and verification, debugging, API integration, secure coding, documentation, automation' },
 ];
